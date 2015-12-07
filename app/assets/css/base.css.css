@@ -1,0 +1,47 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sprockets.
+       Load paths:
+         /Users/ansonli/Desktop/School/Year4/death_locator/app/assets/stylesheets
+         Sass::Globbing::Importer
+        on line 1 of /Users/ansonli/Desktop/School/Year4/death_locator/app/assets/stylesheets/base.css.scss
+
+1: @import "bootstrap-sprockets";
+2: @import "bootstrap";
+
+Backtrace:
+/Users/ansonli/Desktop/School/Year4/death_locator/app/assets/stylesheets/base.css.scss:1
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:420:in `run'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/ansonli/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A        Load paths:\A          /Users/ansonli/Desktop/School/Year4/death_locator/app/assets/stylesheets\A          Sass::Globbing::Importer\A         on line 1 of /Users/ansonli/Desktop/School/Year4/death_locator/app/assets/stylesheets/base.css.scss\A \A 1: @import \"bootstrap-sprockets\";\A 2: @import \"bootstrap\";"; }
