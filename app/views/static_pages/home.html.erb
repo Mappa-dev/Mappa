@@ -1,5 +1,6 @@
-<h1>Welcome to Death Locator</h1>
-<p>Enter your IGN and REGION to find where you died in your last 10 games!</p>
+<%= link_to(image_tag("logo-name-mini.png", :alt => "home image"), root_path, class: "img-logo") %>
+<h1>A visual representation of your deaths in League of Legends</h1>
+<h2>Input your in game name and your region to see your latest deaths!</h2>
 <%= form_tag results_path, :method => 'get' do %>
     <%= text_field_tag :summoner, params[:summoner], class: 'input-medium' %>
     <%= select_tag(:region, options_for_select( [['NA','na'],['BR','br'],['EUNE','eune'],['EUW','euw'],['KR','kr'],['LAN','lan'],['LAS','las'],['OCE','oce'],['RU','ru'],['TR','tr']]), {class: "list-select"} )%>

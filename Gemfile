@@ -22,6 +22,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'multi_json'
 # Attempting to use Hashie to parse JSON response
 gem 'hashie'
+# Add webfonts for roboto
+gem 'google-webfonts-rails', '~> 0.0.4'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

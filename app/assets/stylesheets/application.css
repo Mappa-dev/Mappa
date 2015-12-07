@@ -21,6 +21,18 @@
 
 .img-logo {
 	margin-top: 0;
-	margin-bottom: 0;
-	height: 50px;
+	margin-bottom: -15px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: -10px;
+    font-size: 16px;
+    font-weight: 400px;
 }

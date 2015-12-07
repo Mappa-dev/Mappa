@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DLoc</title>
+  <%= google_webfonts_init({
+    google: ['Roboto']
+  }) %>
+  <title>Mappa</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
 </head>
 <body>
+  <!--
   <header class="navbar navbar-top navbar-inverse">
     <div class="container">
-    <%= link_to(image_tag("deathlocator.png", :alt => "home image"), root_path, class: "img-logo") %>
-      <!--<nav>
+    <%= link_to(image_tag("logo-name.png", :alt => "home image"), root_path, class: "img-logo") %>
+      <nav>
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "Home", root_path  %></li>
           <li><%= link_to "Help", help_path %></li>
           <li><%= link_to "About", about_path %></li>
         </ul>
-      </nav>-->
+      </nav>
     </div>
-  </header>
+  </header>-->
+  <br />
+  <br />
+  <br />
+
   <div class="container">
     <%= yield %>
   </div>
