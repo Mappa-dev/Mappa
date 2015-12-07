@@ -25,6 +25,10 @@ gem 'hashie'
 # Add webfonts for roboto
 gem 'google-webfonts-rails', '~> 0.0.4'
 
+# Particles.js for background
+source 'https://rails-assets.org' do
+  gem 'rails-assets-particles.js'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

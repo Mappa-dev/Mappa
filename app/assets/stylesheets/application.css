@@ -22,17 +22,27 @@
 .img-logo {
 	margin-top: 0;
 	margin-bottom: -15px;
+	position: relative;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 100px;
+    font-weight: 900;
+    position: relative;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
 	margin-top: -10px;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: light;
+    position: relative;
+}
+
+.background {
+	z-index: -1;
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
 }
