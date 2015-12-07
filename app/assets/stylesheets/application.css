@@ -19,6 +19,11 @@
 	border-color: #333;
 }
 
+.teal {
+	color: #50E3C2;
+	display: inline;
+}
+
 .img-logo {
 	margin-top: 0;
 	margin-bottom: -15px;

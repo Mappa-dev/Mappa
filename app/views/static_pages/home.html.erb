@@ -1,6 +1,6 @@
 <!--<%= link_to(image_tag("logo-name-mini.png", :alt => "home image"), root_path, class: "img-logo") %>-->
 <%= image_tag("logo-name-mini.png", :alt => "home image") %>
-<h1>A visual representation of your deaths in League of Legends</h1>
+<h1>A <div class="teal">visual representation</div> of your deaths in League of Legends</h1>
 <h2>Input your in game name and your region to see your latest deaths!</h2>
 <%= form_tag results_path, :method => 'get' do %>
     <%= text_field_tag :summoner, params[:summoner], class: 'input-medium' %>
